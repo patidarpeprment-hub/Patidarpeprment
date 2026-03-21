@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco Palace | Buy Online</title>
+    <style>
+        :root { --gold: #d4af37; --brown: #2d1a1a; }
+        body { background: #1a0f0f; color: #f5e6d3; font-family: 'Arial', sans-serif; text-align: center; margin: 0; padding-bottom: 80px; }
+        
+        .header { background: #3d1f1f; padding: 40px 20px; border-bottom: 3px solid var(--gold); }
+        h1 { color: var(--gold); margin: 0; font-size: 28px; text-transform: uppercase; }
+        
+        .product-list { padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        
+        .card { 
+            background: var(--brown); border: 1px solid var(--gold); border-radius: 15px; 
+            margin: 15px; padding: 20px; width: 90%; max-width: 350px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        .price { font-size: 24px; color: #00ff88; margin: 10px 0; font-weight: bold; }
+        
+        /* Order Buttons */
+        .btn-wa { 
+            display: block; background: #25d366; color: white; padding: 12px; 
+            text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px;
+        }
+        .btn-call { 
+            display: block; background: var(--gold); color: #1a0f0f; padding: 12px; 
+            text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px;
+        }
+
+        /* Floating Call Bar */
+        .call-footer {
+            position: fixed; bottom: 0; width: 100%; background: #3d1f1f;
+            display: flex; border-top: 2px solid var(--gold); padding: 10px 0;
+        }
+        .call-footer a {
+            flex: 1; color: var(--gold); text-decoration: none; font-weight: bold; font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🍫 CHOCO PALACE</h1>
+        <p>Pure Home Made Chocolates - Wholesale Price</p>
+    </div>
+
+    <div class="product-list">
+        <div class="card">
+            <h3>Dark Chocolate (Premium)</h3>
+            <p>Weight: 100g | 80% Cocoa</p>
+            <div class="price">₹199</div>
+            <a href="https://wa.me/91XXXXXXXXXX?text=Hello, I want to order Dark Chocolate" class="btn-wa">Order on WhatsApp</a>
+            <a href="tel:+91XXXXXXXXXX" class="btn-call">📞 Call to Order</a>
+        </div>
+
+        <div class="card">
+            <h3>Milk Chocolate (Creamy)</h3>
+            <p>Weight: 100g | Sweet & Smooth</p>
+            <div class="price">₹149</div>
+            <a href="https://wa.me/91XXXXXXXXXX?text=Hello, I want to order Milk Chocolate" class="btn-wa">Order on WhatsApp</a>
+            <a href="tel:+91XXXXXXXXXX" class="btn-call">📞 Call to Order</a>
+        </div>
+    </div>
+
+    <div class="call-footer">
+        <a href="tel:+91XXXXXXXXXX">📞 CLICK TO CALL OWNER</a>
+        <a href="https://wa.me/91XXXXXXXXXX">💬 WHATSAPP CHAT</a>
+    </div>
+
+</body>
+</html>
